@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claim-verificator"
+version = "0.1.0"
+description = "Automated claim verification pipeline"
+authors = [
+  { name="Sultan Muratkhanov", email="sultan01.muratkhanov@lge.com" }
+]
+readme = "README.md"
+dependencies = [
+  "pandas>=1.0.0",
+  "openpyxl>=3.0.0",
+  "pyxlsb>=1.0.0",
+  "tqdm>=4.0.0"
+]
+
+[project.scripts]
+claim-verify = "src.cli:run_cli"
