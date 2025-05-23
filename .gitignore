@@ -1,0 +1,22 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs and output folders
+logs/
+output/
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local notes, diffs, patches
+*.txt
+*.diff
